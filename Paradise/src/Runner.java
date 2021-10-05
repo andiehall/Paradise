@@ -7,7 +7,6 @@ public class Runner
 				PlayerInfo.settingClass();
 				PlayerInfo.weaponOfChoice();
 				PlayerInfo.DisplayCard();
-				System.out.println("hello");
 			}
 
 	}

@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class PlayerInfo
 	{
-		static PlayerCard player = new PlayerCard("-", "-", "-");
+		static PlayerCard player = new PlayerCard("-", "-", "-", 10, 1, 0);
 		
 		public static void introducingPlayer()
 			{
@@ -67,12 +67,26 @@ public class PlayerInfo
 					
 		}
 		
+		public static void settingStrength()
+			{
+				while(RouteChooser.ifPlaying)
+					{
+						if(player.getExperience() >= 10)
+							{
+								player.setLevel(player.getLevel()+1);
+								player.setStrength(player.getStrength() + 20);
+							}
+					}
+			}
+		
 		public static void DisplayCard()
 		{
 			System.out.println(" ");
 			System.out.println("Your Player Display Card \n╔═══════════════════════════════╗");
 			System.out.println("Your Name is: " + player.getName() + "\nYour Wizarding Class is: " + player.getWizardClass() + "\nYour Weapon of Choice is: " + player.getWeapon());
+			System.out.println("Your Level is: " + player.getLevel() + "\nYour Strength is currently: " + player.getStrength());
 			System.out.println("╚═══════════════════════════════╝");
+			System.out.println(" ");
 		}
 		
 	}
