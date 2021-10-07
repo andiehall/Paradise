@@ -26,7 +26,6 @@ public class MonstersAndCharacters
 				
 		}
 		
-			
 
 		public String getMonsterName()
 			{

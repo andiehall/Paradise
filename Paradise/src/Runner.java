@@ -7,6 +7,7 @@ public class Runner
 				PlayerInfo.settingClass();
 				PlayerInfo.weaponOfChoice();
 				PlayerInfo.DisplayCard();
+				RouteChooser.mainInterface();
 			}
 
 	}
