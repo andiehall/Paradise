@@ -72,10 +72,10 @@ public class PlayerInfo
 		public static void DisplayCard()
 		{
 			System.out.println(" ");
-			System.out.println("Your Player Display Card \nâ•”â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•—");
+			System.out.println("Your Player Display Card \n=====================================");
 			System.out.println("Your Name is: " + player.getName() + "\nYour Wizarding Class is: " + player.getWizardClass() + "\nYour Weapon of Choice is: " + player.getWeapon());
 			System.out.println("Your Level is: " + player.getLevel() + "\nYour Strength is currently: " + player.getStrength());
-			System.out.println("â•šâ•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�â•�");
+			System.out.println("=====================================");
 			System.out.println(" ");
 		}
 		
