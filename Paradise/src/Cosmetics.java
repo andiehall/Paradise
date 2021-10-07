@@ -52,4 +52,5 @@ public class Cosmetics
 				System.out.println("  |    l  I   \\.     ,/");
 				System.out.println("_/j  L l\\_!  _//^---^\\\\_ ");
 			}
+		
 	}
