@@ -38,6 +38,7 @@ public class RouteChooser
 						break;
 				}
 			}		
+		
 		public static void addingMonsters()
 		{
 			
@@ -46,6 +47,7 @@ public class RouteChooser
 			newMonsters.add(new MonstersAndCharacters("The Gray Jackel", 100, "Minions"));
 				
 		}
+		
 		public static void battle1()
 			{
 				System.out.println(" ");
